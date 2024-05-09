@@ -1,0 +1,121 @@
+.pic{
+    height: 80px;
+    width: 100px;
+}
+ul li{
+    
+}
+ul li a{
+    display: inline-block;
+    
+}
+a{display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+.bt{
+    background:white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.bt:hover{
+    background: green;
+}
+.logo{
+    background: #ddd;
+}
+.menu img{
+    height: 500px;
+    border-radius: 50%;
+    
+}
+.menu a{
+    background: blue;
+    border-radius:20px;
+    color: white;
+}
+.niche{
+    padding: 100px 0px;
+}
+.menu{
+    background:#edf7ff ;
+}
+.niche2{
+    padding: 50px 0px;
+}
+.niche2 span{
+    border-bottom: 3px solid #9b59b6;
+    display: inline-block;
+}
+.niche2 h3{
+    color: #9b59b6;
+}
+.card span i{
+    border-bottom: 3px solid #9b59b6;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 150px;
+    border-radius:50px 50px 50px 0px ;
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+.card{
+    position: relative;
+    z-index: 1;
+    background: #f8fcff;
+    text-align: center;
+    
+}
+.card::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+background: red;
+top: 0;
+left: 0;
+border-radius: 10px;
+visibility: hidden;
+transition: .5s;
+
+}
+.card:hover::before{
+    visibility: visible;
+    z-index: -1;
+}
+.foter{
+    text-align: center;
+    margin-top: 50px;
+    background: url(https://img.hotimg.com/video-bg.jpeg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+    z-index: 1;
+}
+.foter{
+    color: white;
+}
+.foter span{
+    font-size: 50px;
+    color: blue;
+    background: white;
+    padding: 10px;
+    border-radius: 50px ;
+    display: inline-block;
+}
+.foter::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0,.5);
+    z-index: -1;
+
+
+    
+
+}
